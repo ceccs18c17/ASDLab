@@ -3,7 +3,7 @@ CREATE TABLE Employee (
   code varchar(4),
   name varchar(10),
   designation varchar(30),
-  dop date,
+  dob date,
   salary int
 );
 
