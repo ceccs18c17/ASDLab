@@ -24,5 +24,5 @@ SELECT * FROM Employee;
 
 #5
 DELETE FROM Employee
-WHERE code="emp2";
+WHERE code = "emp2";
 SELECT * FROM Employee;
