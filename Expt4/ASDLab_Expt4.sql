@@ -16,7 +16,7 @@ INSERT INTO Department VALUES("CS", "Engineering", "Computer Science", 110, 4000
 INSERT INTO Department VALUES("EC", "Engineering", "Electronics", 111, 38000);
 INSERT INTO Department VALUES("EE", "Engineering", "Electrical", 112, 35000);
 
-INSERT INTO Instructor VALUES("Joseph", "CSE", 5);
+INSERT INTO Instructor(Name, Code) VALUES("Joseph", "CSE");
 INSERT INTO Instructor VALUES("Vysakh", "ECE", 3);
 INSERT INTO Instructor VALUES("Rahul", "EEE", 4);
 
